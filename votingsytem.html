@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" type="text/css" href="voting.css">
+    <title>VOTING SYSTEM</title>
+</head>
+<body>
+    
+    <h1>Your Favorite Microsoft Package</h1>
+    <div class="container" style="display: block;">
+    <form name="myform" id="myform">
+       
+
+            <!--MICROSOFT word-->
+               
+    <div class="word">
+         <span> 
+    <input type="radio" name="question" id="word1" value="Microsoft Word" onclick="showHideDiv()">
+    <label>Microsoft Word</label>
+</span>
+
+<div class="progressBar">
+<div class="progressBarValue">NO VOTES</div>
+<div class="progressBarFill">.</div>
+</div>
+
+<br>
+<button type="button" id="btn" style="display: none;">VOTE</button>
+
+</div>
+<br><br>
+
+       <!--MICROSOFT Excel-->
+<div class="excel">
+    
+            <span> 
+                <input type="radio" name="question" id="excel" value="Microsoft Excel" onclick="showHideDiv1()">
+                <label>Microsoft Excel</label>
+            </span>
+            
+            <div class="progressBar1">
+                <div class="progressBarValue1">NO VOTES</div>
+                <div class="progressBarFill1">.</div>
+                </div>
+                
+            
+            <br>
+            <button type="button" id="btn1" style="display: none;">VOTE</button>
+
+        </div>
+
+        <br><br>
+        <div class="powerPoint">
+           
+            <span> 
+                <input type="radio" name="question" value="Microsoft PowerPoint" onclick="showHideDiv2()">
+                <label>Microsoft PowerPoint</label>
+            </span>
+            
+            <div class="progressBar2">
+                <div class="progressBarValue2">NO VOTES</div>
+                <div class="progressBarFill2">.</div>
+                </div>
+                
+            
+            <br>
+            <button type="button" id="btn2" style="display: none;">VOTE</button>
+
+        </div>
+
+
+        <br><br>
+        <div class="Access">
+  
+            <span> 
+                <input type="radio" name="question" value="Microsoft Access" onclick="showHideDiv3()">
+                <label>Microsoft Access</label>
+            </span>
+            
+            <div class="progressBar3">
+                <div class="progressBarValue3">NO VOTES</div>
+                <div class="progressBarFill3">.</div>
+                </div>
+            
+            <br>
+            <button type="button" id="btn3" style="display: none;">VOTE</button>
+       
+        </div>
+        <br>
+    </form>
+
+  
+</div>
+
+
+
+<h1 id="congrat">
+    THANKS FOR VOTING
+</h1>
+
+    <script src="voting.js"></script>
+</body>
+</html>

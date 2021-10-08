@@ -1,0 +1,268 @@
+
+
+
+body{
+    background: #194a73;
+}
+
+
+
+.vote{
+    float: right;
+  
+    width: 25%;
+   /* height: 280px;*/
+}
+
+.vote1{
+    float: right;
+  
+    width: 25%;
+   /* height: 280px;*/
+}
+
+.vote2{
+    float: right;
+  
+    width: 25%;
+   /* height: 280px;*/
+}
+
+.vote3{
+    float: right;
+  
+    width: 25%;
+   /* height: 280px;*/
+}
+
+
+.container{
+    border: 1px solid #ececec;
+    color: whitesmoke;
+}
+
+h1{
+    color: #ff9806;
+}
+
+
+#btn1{
+    background-color: #ff9806;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+
+#btn{
+    background-color: #ff9806;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#btn2{
+    background-color: #ff9806;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#btn3{
+    background-color: #ff9806;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+
+.vote{
+    background: #ff9806;
+    padding: 10px;
+}
+
+
+.vote1{
+    background: #ff9806;
+    padding: 10px;
+}
+
+.vote2{
+    background: #ff9806;
+    padding: 10px;
+}
+
+.vote3{
+    background: #ff9806;
+    padding: 10px;
+}
+
+
+
+
+#congrat{
+    background-color: transparent;
+    color: red;
+    display: none;
+}
+
+.progressBar{
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    width: 400px;
+   height: 40px;
+    
+}
+
+
+.progressBarFill{
+    height: 100%;
+    transition: 2s;
+    color: #194a73;
+    background-color: grey;
+}
+
+
+.progressBarValue{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progressBar1{
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    width: 400px;
+   height: 40px;
+    
+}
+
+
+.progressBarFill1{
+    height: 100%;
+    transition: 2s;
+    color: #194a73;
+    background-color: grey;
+}
+
+
+.progressBarValue1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.progressBar2{
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    width: 400px;
+   height: 40px;
+    
+}
+
+
+.progressBarFill2{
+    height: 100%;
+    transition: 2s;
+    color: #194a73;
+    background-color: grey;
+}
+
+
+.progressBarValue2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.progressBar3{
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    width: 400px;
+   height: 40px;
+    
+}
+
+
+.progressBarFill3{
+    height: 100%;
+    transition: 2s;
+    color: #194a73;
+    background-color: grey;
+}
+
+
+.progressBarValue3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.indexPage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.votNow{
+    background-color: red;
+    padding: 10px;
+    
+}
